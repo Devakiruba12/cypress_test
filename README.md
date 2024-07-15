@@ -1,6 +1,6 @@
-###Test Automation Assignment
+**### Test Automation Assignment**
 
-Environment Setup:
+**Environment Setup:**
 
    1. Install the  NodejS
    2. Install the Visual Studio Code (VSCode)
@@ -14,7 +14,7 @@ Environment Setup:
               
 
 
-Automate the Signup and login functionality 
+**Automate the Signup and login functionality**
 
 URL: [https://dev-fe.buttonshift.com]
 
@@ -28,7 +28,7 @@ Successfully logout the user.
 <!-- In Login the Invalid user  -->
 
 
-Reporting:
+**Reporting:**
 
 1. install cypress-mochawesome-reporter
 <!-- npm i --save-dev cypress-mochawesome-reporter -->
@@ -36,6 +36,7 @@ Reporting:
 
 Edit config file (cypress.config.js by default)
 
+```
 const { defineConfig } = require('cypress');
 
 module.exports = defineConfig({
@@ -46,7 +47,7 @@ module.exports = defineConfig({
     },
   },
 });
-
+```
 3. Add to cypress/support/e2e.js
 
 import 'cypress-mochawesome-reporter/register';
