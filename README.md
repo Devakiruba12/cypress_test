@@ -6,11 +6,11 @@
    2. Install the Visual Studio Code (VSCode)
    3. Create a new folder for project & open in VSCode
    4. open cmd then execute the command for create the package.json file
-             <!-- npm -i init -->
+             `npm -i init `
    5. Install the cypress
-              <!-- npm install cypress --save -dev -->
+             `npm install cypress --save -dev `
    6. Start the cypress 
-              <!-- npx cypress open -->
+              `npx cypress open`
               
 
 
@@ -19,6 +19,7 @@
 URL: [https://dev-fe.buttonshift.com]
 
 1.Write the test cases and execute the test cases.
+
 2.Create the SignupPage.cy.js and LoginPage.cy.js file under e2e folder. 
 <!-- In Signup the new user-->
 First check wheather the valid username,password,otp,location and PhoneNumber. After signup successfully going on the community page.
@@ -31,7 +32,7 @@ Successfully logout the user.
 **Reporting:**
 
 1. install cypress-mochawesome-reporter
-<!-- npm i --save-dev cypress-mochawesome-reporter -->
+      `npm i --save-dev cypress-mochawesome-reporter`
 2. Change cypress reporter & setup hooks
 
 Edit config file (cypress.config.js by default)
@@ -53,7 +54,7 @@ module.exports = defineConfig({
 import 'cypress-mochawesome-reporter/register';
 
 4. run cypress
-<!-- npx cypress run  -->
+    `npx cypress run`
 
 After copy the index.html path and enter the browser, It should showing the test report.
 
